@@ -2,7 +2,8 @@
 Ordinance is a RPG based on Pokemon and Stardew Valley here you can find source code!
 
 # Shader
-``shader_type canvas_item;
+```cpp
+shader_type canvas_item;
 uniform float nColors =4.0;
 
 
@@ -63,4 +64,5 @@ void fragment()
 
     COLOR = vec4(tc, 1.0);
 
-}``
+}
+```
