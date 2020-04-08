@@ -1,0 +1,23 @@
+[gd_scene format=2]
+
+[node name="Unit" type="Control"]
+
+[node name="HPLabel" type="Label" parent="."]
+text = "HP"
+
+[node name="HP" type="Label" parent="."]
+text = "0"
+
+[node name="ExertionLabel" type="Label" parent="."]
+text = "Exertion"
+
+[node name="Exertion" type="Label" parent="."]
+text = "0"
+
+[node name="CombatText" type="Label" parent="."]
+
+[node name="Sprite" type="Sprite" parent="."]
+vframes = 21
+hframes = 13
+
+[node name="UnitName" type="Label" parent="."]
